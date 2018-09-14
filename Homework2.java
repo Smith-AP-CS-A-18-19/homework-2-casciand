@@ -12,6 +12,7 @@ public class Homework2 {
 	 */
 
 
+
 	/* Write the method upperase
 	 * It does not take in any parameters
 	 * It returns a String
