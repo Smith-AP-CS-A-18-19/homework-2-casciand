@@ -1,3 +1,4 @@
+// casciand
 /*
  * Andrew Cascio
  */
@@ -15,6 +16,10 @@ public class Homework2 {
 		private String three;
 
 		public Homework2(String n) {
+			/* This should assign the value that
+			 * the parameter (n) has to your instance
+			 * variable
+			 */
 				name = new String("Hello, World!");
 }
 
@@ -44,6 +49,13 @@ public String strip(String str) {
 		String two = new String("Good Morning, Dave!");
 		String three = two.replaceAll(" ,!", "");
 		return three;
+		/* replace needs to be called once for each type
+		 * of punctuation. Unfortunately, we cannot pass
+		 * a list of characters to remove. How you have
+		 * written it, the it will search for the String
+		 * " ,!" and remove it. Also, these replace
+		 * operations should happen on the string str
+		 */
 }
 
 	/* Fix the errors in the method problem4
@@ -69,6 +81,11 @@ public String strip(String str) {
 			double h = recta.getHeight();
 			double p = (2 * w) + (2 * h);
 			return p;
+			/* The math is correct here, but once again
+			 * we want to do the calculations on the
+			 * Rectangle that is passed in, not a new
+			 * one that we create
+			 */
 	}
 
 }
